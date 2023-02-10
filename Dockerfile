@@ -1,5 +1,4 @@
 FROM alpine:latest
-
+USER 1000
 RUN apk add bash
 ADD dummy.txt .
-USER 1000
